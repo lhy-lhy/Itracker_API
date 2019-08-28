@@ -1,0 +1,22 @@
+接口：
+/api/services/app/FollowUp/GetContinueRecordingLogStatistics?days=1&culture=zh-Hans
+
+
+脚本：
+tests["状态码是200"] = responseCode.code === 200;
+var jsonData = JSON.parse(responseBody)
+if (jsonData.success == true){
+    tests["数据获取成功"] = true
+    console.log(jsonData.success)
+}else{
+    tests["数据获取失败"] =false;
+    console.log(jsonData.success)
+}
+
+if (jsonData.result["recorded"]+jsonData.result["notRecorded"] == jsonData.result["total"]){
+    tests["管理总人数显示正确"] = true
+    console.log("总人数",jsonData.result["recorded"]+jsonData.result["notRecorded"])
+}else{
+    tests["管理总人数显示不正确"] = false
+}
+postman.setEnvironmentVariable("目前该账号管理的总人数",jsonData.result["total"])

@@ -1,0 +1,19 @@
+接口：
+/api/services/app/FollowUp/GetContinueRecordingLogStatistics?days=3&culture=zh-Hans
+
+脚本：
+var jsonData = JSON.parse(responseBody)
+tests["响应状态码是200,并且数据请求成功"] = responseCode.code === 200 && jsonData.success == true
+console.log(jsonData.success)
+
+
+//第二个断言，判断连续三天记录血糖的人数获取正确
+//接口有问题先暂时不写脚本，通过添加
+
+//第三个断言，判断管理的总人数显示正确
+if (jsonData.result["recorded"]+jsonData.result["notRecorded"] == jsonData.result["total"]){
+    tests["管理总人数显示正确"] = true
+    console.log("总人数",jsonData.result["recorded"]+jsonData.result["notRecorded"])
+}else{
+    tests["管理总人数显示不正确"] = false
+}

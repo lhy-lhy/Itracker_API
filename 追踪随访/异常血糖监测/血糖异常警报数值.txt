@@ -1,0 +1,22 @@
+接口：
+/api/services/app/FollowUp/GetYesterdayAlertCount?culture=zh-Hans
+
+
+
+脚本：
+var jsonData = JSON.parse(responseBody);
+if (jsonData.success == true) {
+    tests["高血糖低血糖警报次数显示正确"] = true;
+    console.log(jsonData.result.heightAlartCount,jsonData.result.lowAlartCount)
+    
+    //aa = jsonData.result.heightAlartCount+jsonData.result.lowAlartCount
+    postman.setEnvironmentVariable("hboold_warning",jsonData.result.heightAlartCount)
+    postman.setEnvironmentVariable("lboold_warning",jsonData.result.lowAlartCount)
+    //console.log(aa)
+
+    postman.setNextRequest("血糖异常列表")
+} else {
+    tests["高血糖低血糖警报次数显示错误"] = false;
+    postman.setNextRequest(null)
+    console.log("454",jsonData.result.heightAlartCount,jsonData.result.lowAlartCount)
+}

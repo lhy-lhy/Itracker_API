@@ -1,0 +1,7 @@
+接口：
+/api/services/app/FollowUp/GetBloodGlucoseIndicator?culture=zh-Hans
+
+
+脚本：
+//这个接口是追踪随访的前一日血糖柱形图
+tests["响应状态码是200"] = responseCode.code ===200

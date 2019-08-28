@@ -1,0 +1,43 @@
+接口：
+/api/services/app/FollowUp/GetPreviousDayFrontReachTheStandardList?culture=zh-Hans
+
+
+
+脚本：
+/api/services/app/FollowUp/GetPreviousDayFrontReachTheStandardList?culture=zh-Hans
+//第一个断言判断响应状态码是200
+ pm.test("响应状态码是 200", function () {
+    pm.response.code == 200 ;
+    console.log(pm.response.code)
+    
+});
+
+//第二个断言，判断响应的items的数组长度
+var jsonData = JSON.parse(responseBody)
+//判断响应里返回的的数组的条数与该患者列表出现高血糖低血糖异常血糖时的条数一致
+if (jsonData.result.items.length == jsonData.result.items.count(jsonData.result.items.bgValue)){
+    tests["异常血糖数据获取正确"] = true;
+    console.log(jsonData.result.items.length)//在控制台输出items数组的长度
+}else{
+    tests["异常血糖数据获取不正确"] = false;
+    console.log(jsonData.result.items.length)//在控制台输出items数组的长度
+    console.log(jsonData.result.items.count(jsonData.result.items.bgValue))//获取到该显示在异常血糖列表中的数据
+}
+
+
+
+
+//第三个断言，判断该接口响应的数据是否和异常警报接口响应的数据一致。
+//注意这个在进行求和的时候没有转换字符类型默认用的字符串类型显示的数据
+aa = parseInt(postman.getEnvironmentVariable("hboold_warning"))+parseInt(postman.getEnvironmentVariable("lboold_warning"))
+bb = jsonData.result.items.length
+console.log("aa=",aa)
+console.log("bb=",bb)
+if (aa == bb){
+    tests["异常血糖警报和异常血糖列表的数据条数一致"] = true
+    console.log(aa,bb)
+}else{
+    tests["异常警报血糖数和异常血糖列表的条数显示的不一致"] = false
+    console.log(aa,bb)
+}
+
