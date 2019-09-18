@@ -1,0 +1,3143 @@
+{
+	"id": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+	"name": "医生权限线上itracker测试",
+	"description": null,
+	"auth": null,
+	"events": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "1341cc0d-78f5-409f-aa53-87edc9a26d9f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "8e20e9b5-418a-43a0-bef4-69f55382ee17",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"88936fc5-26ce-4ab8-ac46-b9befbe14e48",
+		"235695f7-a81a-475b-9bc4-e2a48944dcab",
+		"3891702e-9582-4b8e-9f9b-bf57f3a019ac"
+	],
+	"folders": [
+		{
+			"id": "2196a99b-0c66-4243-a862-8012b1f093b3",
+			"name": "【患者管理-健康档案与评估】",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"order": [
+				"a1c4946f-4d11-4aca-b474-349237d5cc32",
+				"e47b0a0f-334f-4a67-b05a-5b9d0bc87b36",
+				"3df2d579-3fac-43af-befc-1ca77060ec0f"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"name": "【患者管理-总览】",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"order": [
+				"6916340c-8191-4217-9374-02c4376d820f",
+				"4d12bbfa-c58f-4751-bb2b-37e97c7c2b4c",
+				"b167c29c-7337-4d57-85ce-7a233b40e4d3",
+				"0ba67735-12e8-4058-bc6f-d632c57281ba",
+				"aded2f33-ac54-4f36-a67d-1ff663cab648",
+				"9ded55f4-d9c9-4dae-afbf-4814a410337b",
+				"0cc56efd-61e6-4336-9f2f-d0bebb126d1c",
+				"152819ac-02d7-4380-bed4-b9e456352310",
+				"53c858ba-1acb-4fcb-8a83-80aab9ff6974",
+				"24fde650-b8b3-48cd-81c6-879e23c9b68f",
+				"458deffb-2a08-4dc6-83d4-d62ce06dbb69"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "59ab596b-5f33-47e2-b83c-3a6dfdc5ef82",
+			"name": "【患者管理-患者日志】",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"order": [
+				"43b7fe93-0860-48bb-bf98-0a38f91f07d0",
+				"98d4bf03-190a-4bfc-9ebc-b0068ae283a6"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "d5687b3b-a622-4ded-b64d-339dee9e684d",
+			"name": "【患者管理-管理报表】",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"order": [
+				"a464a591-b6c7-411f-9e17-8ce68a2b59a0"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "42d8cdce-c368-420d-a2bd-814bd3b7288f",
+			"name": "前一日血糖",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "235695f7-a81a-475b-9bc4-e2a48944dcab",
+			"order": [
+				"01c41ad4-6c2f-41e5-8201-6ca89e3e74f5",
+				"74354023-95f0-4ca7-832b-7de531ebe7e6"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "abf45e80-45c3-4cc2-9e76-26cf6d314e46",
+			"name": "建档管理",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "235695f7-a81a-475b-9bc4-e2a48944dcab",
+			"order": [
+				"b908e175-4d61-493a-9417-861528464eb2"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "a7e91bf1-507b-4328-a34f-fb708aab4bf8",
+			"name": "异常血糖监测",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "235695f7-a81a-475b-9bc4-e2a48944dcab",
+			"order": [
+				"2cce692b-0bab-411e-998f-d7e6f6e267a4",
+				"6d524da2-4bd2-4c37-8dc2-ac72d3dff6a6"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "55a6a45d-3fa8-4b62-914b-5ad8159a0b72",
+			"name": "患者依从性",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "235695f7-a81a-475b-9bc4-e2a48944dcab",
+			"order": [
+				"00d1b9ec-ae73-442a-9943-67d71319af9d",
+				"67ed7012-09d9-4a99-9fd6-03ded313c664"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "2f98c258-1cf5-4da7-ae5c-218026bd164c",
+			"name": "患者列表",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"order": [
+				"f7877259-36cf-4b44-a216-8649b8738628",
+				"21613b68-375b-4f0c-ad72-d8b0a38fe538",
+				"ffed61c0-844d-4df6-a69f-1e59112ba994"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "3891702e-9582-4b8e-9f9b-bf57f3a019ac",
+			"name": "患者管理",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": null,
+			"order": [],
+			"folders_order": [
+				"2f98c258-1cf5-4da7-ae5c-218026bd164c",
+				"677364b0-d9b3-4751-82dd-0e1ba18323ac",
+				"59ab596b-5f33-47e2-b83c-3a6dfdc5ef82",
+				"d5687b3b-a622-4ded-b64d-339dee9e684d",
+				"2196a99b-0c66-4243-a862-8012b1f093b3"
+			]
+		},
+		{
+			"id": "88936fc5-26ce-4ab8-ac46-b9befbe14e48",
+			"name": "登陆",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": null,
+			"order": [
+				"687d90d6-a9f3-44a9-910a-ef93a8b9e182",
+				"0bce05a1-932d-466c-accd-3bb54955308f"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "235695f7-a81a-475b-9bc4-e2a48944dcab",
+			"name": "追踪随访",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"collection": "638817c2-8ab6-4096-8ff4-043b0d7ff43a",
+			"folder": null,
+			"order": [],
+			"folders_order": [
+				"a7e91bf1-507b-4328-a34f-fb708aab4bf8",
+				"42d8cdce-c368-420d-a2bd-814bd3b7288f",
+				"55a6a45d-3fa8-4b62-914b-5ad8159a0b72",
+				"abf45e80-45c3-4cc2-9e76-26cf6d314e46"
+			]
+		}
+	],
+	"requests": [
+		{
+			"id": "00d1b9ec-ae73-442a-9943-67d71319af9d",
+			"name": "前一日患者依从性记录",
+			"url": "{{url}}/api/services/app/FollowUp/GetContinueRecordingLogStatistics?days=1&culture=zh-Hans",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "days",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fbd37405-e7b1-4cbe-af86-c1b680687b80",
+						"exec": [
+							"tests[\"状态码是200\"] = responseCode.code === 200;",
+							"var jsonData = JSON.parse(responseBody)",
+							"if (jsonData.success == true){",
+							"    tests[\"数据获取成功\"] = true",
+							"    console.log(jsonData.success)",
+							"}else{",
+							"    tests[\"数据获取失败\"] =false;",
+							"    console.log(jsonData.success)",
+							"}",
+							"",
+							"if (jsonData.result[\"recorded\"]+jsonData.result[\"notRecorded\"] == jsonData.result[\"total\"]){",
+							"    tests[\"管理总人数显示正确\"] = true",
+							"    console.log(\"总人数\",jsonData.result[\"recorded\"]+jsonData.result[\"notRecorded\"])",
+							"}else{",
+							"    tests[\"管理总人数显示不正确\"] = false",
+							"}",
+							"postman.setEnvironmentVariable(\"目前该账号管理的总人数\",jsonData.result[\"total\"])"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "55a6a45d-3fa8-4b62-914b-5ad8159a0b72",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "01c41ad4-6c2f-41e5-8201-6ca89e3e74f5",
+			"name": "患者前一日血糖数据获取API Copy",
+			"url": "{{url}}/api/services/app/FollowUp/GetBloodGlucoseIndicator?culture=zh-Hans",
+			"description": "从当前登陆时间开始向前推进24小时",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "963ac339-1b68-4f48-91e3-2ca2529a139c",
+						"exec": [
+							"//这个接口是追踪随访的前一日血糖柱形图",
+							"",
+							"",
+							"tests[\"响应状态码是200\"] = responseCode.code ===200",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "42d8cdce-c368-420d-a2bd-814bd3b7288f",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "0ba67735-12e8-4058-bc6f-d632c57281ba",
+			"name": "【患者总览-分析】",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetBloodGlucoseAnalysisOutput?culture=zh-Hans&{{患者列表-选择时间段time30天}}&{{患者列表-患者的ID}}",
+			"description": "分析最佳血糖时间和高血糖低血糖发生时间最多的时间段",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段time30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "11b18c56-8358-4678-80df-6d65ad0ab466",
+						"exec": [
+							"tests[\"响应的状态码是200\"] = responseCode.code ===200"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "0bce05a1-932d-466c-accd-3bb54955308f",
+			"name": "登陆接口 Copy",
+			"url": "{{url}}/api/TokenAuth/Authenticate?culture=zh-Hans",
+			"description": null,
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "12be1aca-137f-4e5b-b7b5-97c7e3ee5d0c",
+						"exec": [
+							"//第一个断言",
+							"//如果响应码是200并且响应体中有access_token关键字，则登陆成功",
+							"if (responseCode.code === 200 && responseBody.has(\"accessToken\")) {",
+							"    //显示等罗成功",
+							"    tests[\"登陆成功\"] = true;",
+							"    //定义一个变量，将转换为json格式的响应体",
+							"    var jsonData = JSON.parse(responseBody);",
+							"    //将获取到的token值添加到环境变量中",
+							"    postman.setEnvironmentVariable(\"doctor_login_line\", jsonData.result.accessToken);",
+							"} else {",
+							"    //如果响应状态码不是200，则返回登陆失败",
+							"    tests[\"登陆失败\"] = false;",
+							"",
+							"}",
+							"",
+							"",
+							"",
+							"//第二个断言",
+							"//判断响应中有这个参数",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Body has key 'name'\"] = responseBody.has(\"name\");",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "88936fc5-26ce-4ab8-ac46-b9befbe14e48",
+			"rawModeData": "{\r\n\"userNameOrEmailAddress\": \"17774994965\",\r\n\"password\": \"123456\",\r\n\"origin\": \"2\"\r\n\t\r\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "0cc56efd-61e6-4336-9f2f-d0bebb126d1c",
+			"name": "【患者总览-胰岛素-用药】数据获取",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetDayMedicineOutput?culture=zh-Hans&{{患者列表-选择时间段date30天}}&{{患者列表-患者的ID}}",
+			"description": "用于患者的胰岛素用药情况获取",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段date30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": null,
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "152819ac-02d7-4380-bed4-b9e456352310",
+			"name": "获取患者每日饮食和运动数据",
+			"url": "{{url}}/api/services/app/PatientLog/GetPatientDayRecords?culture=zh-Hans&startDate=2019/7/18&endDate=2019/7/24&patientId=c7a3596d-d52a-4dff-ca0e-08d70a9bd4b6",
+			"description": "获取到患者每日饮食和运动数值",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans"
+				},
+				{
+					"key": "startDate",
+					"value": "2019/7/18"
+				},
+				{
+					"key": "endDate",
+					"value": "2019/7/24"
+				},
+				{
+					"key": "patientId",
+					"value": "c7a3596d-d52a-4dff-ca0e-08d70a9bd4b6"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": null,
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "21613b68-375b-4f0c-ad72-d8b0a38fe538",
+			"name": "患者基础信息获取",
+			"url": "{{url}}/api/services/app/Patient/GetPatientBasicInfo?culture=zh-Hans&{{患者列表-患者的ID}}",
+			"description": "点击某个患者，跳转页面显示该患者的姓名、电话、糖尿病类型、建档时间（总览头上）",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "38dfdadf-b116-4d6e-971d-688bf26c99e8",
+						"exec": [
+							"tests[\"响应状态码为200\"] = responseCode.code ===200",
+							"console.log(responseCode.code);",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"if (jsonData.result.filingTime === null){",
+							"    Ftime = \"\"",
+							"    console.log(Ftime)",
+							"}else{",
+							"    Ftime = (jsonData.result.filingTime).slice(0,10)",
+							"    console.log(Ftime)",
+							"}",
+							"massage = jsonData.result.surname+\",\"+jsonData.result.diabetesType+\",\"+jsonData.result.age+\",\"+Ftime",
+							"massage1= massage.replace(\",\",\"\")",
+							"console.log(massage1)",
+							"postman.setEnvironmentVariable(\"患者列表-患者信息\",massage1)",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "c9efd7b5-16dc-448e-a28a-1ef8348f1cbb",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "2f98c258-1cf5-4da7-ae5c-218026bd164c",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "24fde650-b8b3-48cd-81c6-879e23c9b68f",
+			"name": "获取每日血糖",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetDayOfWeekBGRecords?culture=zh-Hans&{{患者列表-选择时间段date30天}}&{{患者列表-患者的ID}}",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段date30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": null,
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2cce692b-0bab-411e-998f-d7e6f6e267a4",
+			"name": "血糖异常警报数值API Copy",
+			"url": "{{url}}/api/services/app/FollowUp/GetYesterdayAlertCount?culture=zh-Hans",
+			"description": "显示高血糖低血糖在警报中的条数",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4eb1c06f-0328-4d1c-b4dd-3f9c7ea4118e",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"if (jsonData.success == true) {",
+							"    tests[\"高血糖低血糖警报次数显示正确\"] = true;",
+							"    console.log(jsonData.result.heightAlartCount,jsonData.result.lowAlartCount)",
+							"    ",
+							"    //aa = jsonData.result.heightAlartCount+jsonData.result.lowAlartCount",
+							"    postman.setEnvironmentVariable(\"hboold_warning\",jsonData.result.heightAlartCount)",
+							"    postman.setEnvironmentVariable(\"lboold_warning\",jsonData.result.lowAlartCount)",
+							"    //console.log(aa)",
+							"",
+							"} else {",
+							"    tests[\"高血糖低血糖警报次数显示错误\"] = false;",
+							"   ",
+							"    console.log(\"454\",jsonData.result.heightAlartCount,jsonData.result.lowAlartCount)",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"　　",
+							"　　",
+							"　　",
+							"　　",
+							"　　"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "a7e91bf1-507b-4328-a34f-fb708aab4bf8",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "3df2d579-3fac-43af-befc-1ca77060ec0f",
+			"name": "患者病情评估血糖范围更改",
+			"url": "{{url}}/api/services/app/Patient/ChangePatientDiseaseAssessment?culture=zh-Hans",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [],
+			"folder": "2196a99b-0c66-4243-a862-8012b1f093b3",
+			"rawModeData": "{\r\n\"diagnoseNote\": \"null\",\r\n\"focusConcomitantDisease\": \"心血管\",\r\n\"hbgAlarmValue\": \"12\",\r\n\"hpbg\": \"10\",\r\n\"hpmbg\": \"7.2\",\r\n\"lbgAlarmValue\": \"1\",\r\n\"lpbg\": \"4.4\",\r\n\"lpmbg\": \"4.2\",\r\n\"patientId\":\"60dd52f3-3485-48c6-5d82-08d725f91399\"//敖丙患者的ID\r\n}\r\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "43b7fe93-0860-48bb-bf98-0a38f91f07d0",
+			"name": "患者日志的患者基本信息",
+			"url": "{{url}}/api/services/app/Patient/GetPatientBasicInfo?culture=zh-Hans&{{患者列表-患者的ID}}",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0fc9e003-59b2-46cf-ae75-9183e6a03d88",
+						"exec": [
+							"tests[\"响应状态码为200\"] = responseCode.code ===200",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"if (jsonData.result.filingTime === null){",
+							"    Ftime1 = \"\"",
+							"    console.log(Ftime1)",
+							"}else{",
+							"    Ftime1 = (jsonData.result.filingTime).slice(0,10)",
+							"}",
+							"massage1 = (jsonData.result.surname+\",\"+jsonData.result.diabetesType+\",\"+jsonData.result.age+\",\"+Ftime1).replace(\",\",\"\")",
+							"console.log(typeof(massage1))",
+							"if (postman.getEnvironmentVariable(\"患者列表-患者信息\") == massage1){",
+							"    tests[\"患者的基础数据获取正确\"] = true",
+							"    console.log(massage1)",
+							"}else{",
+							"    tests[\"获取的患者基础数据和患者总览的基础数据不一致\"] = false",
+							"    console.log(massage1)",
+							"    console.log(typeof(postman.getEnvironmentVariable(\"患者列表-患者信息\")))",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "59ab596b-5f33-47e2-b83c-3a6dfdc5ef82",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "458deffb-2a08-4dc6-83d4-d62ce06dbb69",
+			"name": "获取患者的血糖数据日志",
+			"url": "{{url}}/api/services/app/PatientLog/GetPatientDayRecords?culture=zh-Hans&{{患者列表-选择时间段date30天}}&{{患者列表-患者的ID}}",
+			"description": "可以创建患者的血糖数据",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段date30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5c270369-c489-405f-9498-aff86fd6cb7a",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody)",
+							"if (responseCode.code === 200){",
+							"    tests[\"获取日志成功,状态码是200\"] =true;",
+							"",
+							"}",
+							"",
+							"",
+							"//qq = jsonData.result.items[0][\"records\"][0][\"bloodGlucoseValue\"]",
+							"//console.log(qq)",
+							"//postman.setEnvironment(\"最新的血糖值\",)",
+							"",
+							"/*判断字典里面是否有某个键",
+							"aa = jsonData.result.items[0].records[0]",
+							"console.log(aa)",
+							"",
+							"",
+							"if(aa.hasOwnProperty(\"recordTimeString\")){",
+							"    console.log(jsonData.result.items[0].records[0][\"recordTimeString\"])",
+							"}",
+							"*/",
+							" ",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4d12bbfa-c58f-4751-bb2b-37e97c7c2b4c",
+			"name": "【血糖】柱形图数据7天",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPeriodBGIndictorOutput?culture=zh-Hans&{{管理报表-7天}}&{{患者列表-患者的ID}}",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{管理报表-7天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "81db8c65-7b91-4555-a2aa-239db91918a5",
+						"exec": [
+							"",
+							"//11111111111111111111111111第一个断言",
+							"tests[\"状态码是200\"] = responseCode.code ===200",
+							"",
+							"",
+							"",
+							"",
+							"//2222222222222222222222222第二个断言，判断血糖返回的次数和实际记录的次数是否是一致的",
+							"var jsonData = JSON.parse(responseBody)",
+							"if(jsonData.result.measurementTimes ==( jsonData.result.beforeBloodGlucoseChangeValues.length+jsonData.result.afterBloodGlucoseChangeValues.length+jsonData.result.randomBloodGlucoseChangeValues.length)){",
+							"    tests[\"测试次数和血糖数据获取的时间次数---相同\"] = true",
+							"}else{",
+							"    tests[\"血糖测试次数和实际测试次数---不相同\"] = false",
+							"",
+							"}",
+							"",
+							"",
+							"",
+							"//333333333333333333333333333333第三个断言，判断所记录下的所有的血糖值的平均值是否记录正确",
+							"",
+							"//第一个求和：餐前血糖的血糖值之和",
+							"var jsonData = JSON.parse(responseBody)",
+							"var sum = 0",
+							"hh = jsonData.result.beforeBloodGlucoseChangeValues",
+							"for (i=0; i < hh.length;i++){",
+							"   sum += hh[i] ",
+							"    ",
+							"}",
+							"//第二个求和：餐后血糖的血糖值之和",
+							"var sum1 = 0",
+							"hhh = jsonData.result.afterBloodGlucoseChangeValues",
+							"for (j=0; j < hhh.length;j++){",
+							"   sum1 +=hhh[j] ",
+							"    ",
+							"}",
+							"",
+							"//第三个求和，求随机血糖的血糖之和",
+							"var sum2 = 0",
+							"hhhh = jsonData.result.randomBloodGlucoseChangeValues",
+							"for (k=0; k < hhhh.length;k++){",
+							"   sum2 +=hhhh[k] ",
+							"    ",
+							"}",
+							"//将测试的次数赋值给变量cishu",
+							"var cishu = jsonData.result.measurementTimes",
+							"//求平均。餐前餐后所有血糖值总和的平均值",
+							"var avg =(sum+sum1+sum2)/cishu",
+							"console.log(\"avg\",avg)",
+							"if (Math.abs(jsonData.result.averageBloodGlucoseValue - avg)<0.1){",
+							"    tests[\"血糖的平均值计算正确\"] = true",
+							"}else if(jsonData.result[\"averageBeforeBloodGlucoseValue\"] === null){",
+							"    tests[\"患者尚未有血糖数据未能求值平均值\"] = false;",
+							"}else{",
+							"    tests[\"血糖的平均值计算不正确\"] = false",
+							"}",
+							"",
+							"",
+							"",
+							"//4444444444444444444444第四个断言，标准差求值",
+							"//先将餐前和餐后的血糖拼接在一个数组中",
+							"zong = jsonData.result.beforeBloodGlucoseChangeValues.concat(jsonData.result.afterBloodGlucoseChangeValues).concat(jsonData.result.randomBloodGlucoseChangeValues)",
+							"console.log(\"zog\",zong)",
+							"var sum2 = 0",
+							"for(m=0; m<zong.length; m++){",
+							"    sum2 += Math.pow((zong[m]-avg),2)",
+							"}",
+							"console.log(sum2)",
+							"standard = Math.sqrt(sum2/cishu)",
+							"console.log(\"d\", standard)",
+							"",
+							"",
+							"//number = String(number).replace(/^(.*\\..{13}).*$/,\"$1\");",
+							"//number = Number(number); // number = 12.3321",
+							"",
+							"//console.log(number)",
+							"//将标准差的小数位保留至13位，大于5向上升10",
+							"standard1 = standard.toFixed(14) ",
+							"console.log(\"标准差\",standard1)",
+							"",
+							"if (Math.abs(jsonData.result.bgVariance - standard1) < 0.1){",
+							"    tests[\"标准差求值正确\"] = true;",
+							"",
+							"}else if(jsonData.result[\"averageBeforeBloodGlucoseValue\"] === null){",
+							"    tests[\"未有血糖数据不能求值标准差\"] = false;",
+							"}else{",
+							"    tests[\"标准差求值不正确\"] = false;",
+							"}",
+							"",
+							"",
+							"",
+							"//55555555555555555555第五个断言,判断血糖值的最大最小值是否获取正确",
+							"",
+							"// 查找血糖值中最小的血糖值==============================================================================",
+							"/*",
+							"function mathMin(zong){",
+							"  var min = zong[0];",
+							"  for(var n = 1; n < zong.length; n++) {",
+							"    if(zong[n] < min) {",
+							"      min = zong[n];",
+							"    }",
+							"  }",
+							"  return min;",
+							"}",
+							"",
+							"minBG = (mathMin(zong)).toFixed(2)",
+							"console.log(\"最低血糖\",minBG);",
+							"",
+							"//血糖值中最大的血糖值===================================================================================",
+							"function mathMax(zong) {",
+							"  var max = zong[0];",
+							"  for(var r = 1;r<zong.length; r++) {",
+							"    if(zong[r] > max) {",
+							"      max = zong[r];",
+							"    }",
+							"  }",
+							"  return max;",
+							"}",
+							"",
+							"maxBG = (mathMax(zong)).toFixed(2)",
+							"console.log(\"最高血糖\",maxBG);",
+							"*/",
+							"//当餐前血糖为空的时候并且餐后血糖不为空的时候，对血糖的最小值和最大值进行求值",
+							"if (jsonData.result.beforeBloodGlucoseChangeValues.length === 0 && jsonData.result.afterBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1; r < zong.length; r++) {",
+							"       if(zong[r] > max){",
+							"            max = zong[r]",
+							"        }",
+							"    ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"",
+							"}",
+							"//当餐前血糖不为空餐后血糖为空的时候",
+							"else if(jsonData.result.afterBloodGlucoseChangeValues.length === 0 && jsonData.result.beforeBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1;r<zong.length; r++) {",
+							"        if(zong[r] > max){",
+							"            max = zong[r]",
+							"            ",
+							"        }",
+							"        ",
+							"        ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"    ",
+							"}",
+							"//判断出餐前和餐后血糖的值都不为空",
+							"else if(jsonData.result.afterBloodGlucoseChangeValues.length !== 0 && jsonData.result.beforeBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1;r<zong.length; r++) {",
+							"        if(zong[r] > max){",
+							"            max = zong[r]",
+							"            ",
+							"        }",
+							"        ",
+							"        ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"    ",
+							"}else{",
+							"    minBG = 0,maxBG = 0",
+							"    console.log(\"餐前餐后的血糖值都为零\");",
+							"}",
+							"",
+							"//求随机血糖里面的血糖最小值==========================================================================================",
+							"//先是要进行判断，判断是否为空，为空就不求值随机血糖里面的值，不为空就求最高血糖和最低血糖。",
+							"",
+							"",
+							"if (jsonData.result.randomBloodGlucoseChangeValues.length !== 0){",
+							"    ab = jsonData.result.randomBloodGlucoseChangeValues",
+							"    console.log(\"随机血糖\",ab.length)",
+							"    var min1 = ab[0];",
+							"    for(var h = 1; h < ab.length; h++){",
+							"        if(ab[h] < min1){",
+							"             min1 = ab[h];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG1 = min1.toFixed(2);",
+							"    console.log(\"随机最低血糖1\",minBG1);",
+							"    ",
+							"    ",
+							"    ",
+							"    //求随机血糖里面的血糖最大值==========================================================================================",
+							"    ",
+							"    var max1 = ab[0];",
+							"    for(var w = 1;w<ab.length; w++){",
+							"        if(ab[w] > max1){",
+							"            max1 = ab[w];",
+							"        }",
+							"       ",
+							"    }",
+							"    maxBG1 = max1.toFixed(2);",
+							"    console.log(\"随机最高血糖1\",maxBG1);",
+							"    ",
+							"   ",
+							"    ",
+							"}else{",
+							"    minBG1 = 0, maxBG1 = 0",
+							"    console.log(\"随机血糖值是空的\",jsonData.result.randomBloodGlucoseChangeValues.length)",
+							"    }",
+							"    ",
+							"//求值到最大值最小值血糖之后进行判断，如果接口中的最大最小血糖值都求值正确则返回正确。",
+							"if ((minBG == jsonData.result.beforeLBG ||minBG == jsonData.result.afterLBG|| minBG == minBG1) && (maxBG == jsonData.result.beforeHBG || maxBG == jsonData.result.afterHBG || maxBG == maxBG1)){",
+							"    tests[\"该时间段内的最低、最高血糖值获取正确\"] = true;",
+							"    console.log(\"最低血糖值为\",minBG);",
+							"    console.log(\"最高血糖值为\",maxBG);",
+							"}else{",
+							"    tests[\"该时间段内最低、最高血糖值获取错误\"] = false;",
+							"    console.log(jsonData.result.randomBloodGlucoseChangeValues);",
+							"    }",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "53c858ba-1acb-4fcb-8a83-80aab9ff6974",
+			"name": "获取一段时间的运动和饮食数据",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPeriodDietAndExerciseOutput?culture=zh-Hans&{{患者列表-选择时间段time30天}}&{{患者列表-患者的ID}}",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段time30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "67ed7012-09d9-4a99-9fd6-03ded313c664",
+			"name": "连续三日患者依从性记录",
+			"url": "{{url}}/api/services/app/FollowUp/GetContinueRecordingLogStatistics?days=3&culture=zh-Hans",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "days",
+					"value": "3"
+				},
+				{
+					"key": "culture",
+					"value": "zh-Hans"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f4ddc6d7-f34d-4e96-b283-d492e5d70847",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d0b14acc-0f4c-42bd-9948-1269ddb04e5f",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody)",
+							"tests[\"响应状态码是200,并且数据请求成功\"] = responseCode.code === 200 && jsonData.success == true",
+							"console.log(jsonData.success)",
+							"",
+							"",
+							"//第二个断言，判断连续三天记录血糖的人数获取正确",
+							"//接口有问题先暂时不写脚本，通过添加",
+							"",
+							"//第三个断言，判断管理的总人数显示正确",
+							"if (jsonData.result[\"recorded\"]+jsonData.result[\"notRecorded\"] == jsonData.result[\"total\"]){",
+							"    tests[\"管理总人数显示正确\"] = true",
+							"    console.log(\"总人数\",jsonData.result[\"recorded\"]+jsonData.result[\"notRecorded\"])",
+							"}else{",
+							"    tests[\"管理总人数显示不正确\"] = false",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "55a6a45d-3fa8-4b62-914b-5ad8159a0b72",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "687d90d6-a9f3-44a9-910a-ef93a8b9e182",
+			"name": "获取到登陆账号的职位和职权 Copy",
+			"url": "{{url}}/api/services/app/User/GetCurrentUserRolesAndPermissions?culture=zh-Hans",
+			"description": "能查看到登陆账号的职位和能够使用的功能面板",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9ca6c821-28fc-4b62-a90a-34351fc4bb1e",
+						"exec": [
+							"//第一个断言",
+							"//定义响应的json格式",
+							"var schema = {",
+							"    \"permissionNames\": [",
+							"        \"Administration.Tenant.Settings\",",
+							"        \"iTracker.Patients\",",
+							"        \"iTracker.Patients.Dashboard\",",
+							"        \"iTracker.Patients.List\",",
+							"        \"iTracker.Patients.Logs\",",
+							"        \"iTracker.Patients.Reports\",",
+							"        \"iTracker.Patients.HealthArchive\",",
+							"        \"iTracker.Patients.FollowUp\"",
+							"    ]",
+							"",
+							"}",
+							"",
+							"//以下断言只是用来验证响应的响应体是JSON格式的数据",
+							"pm.test(\"数据响应格式匹对正确\", function() {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(tv4.validate(jsonData, schema)).to.be.true; //特定的格式",
+							"",
+							"});",
+							"",
+							"//第二个断言",
+							"var jsonData = pm.response.json();",
+							"//将医医生账号该有的权限以字符串的形式赋值给定义的变量",
+							"var array = \"Administration.Tenant.Settings,iTracker.Patients,iTracker.Patients.Dashboard,iTracker.Patients.List,iTracker.Patients.Logs,iTracker.Patients.Reports,iTracker.Patients.HealthArchive,iTracker.Patients.FollowUp\";",
+							"//在做判断之前先将环境变量清除",
+							"postman.clearEnvironmentVariable(\"permissionNames\");",
+							"//将获取到的职位权限的值添加进环境变量中",
+							"postman.setEnvironmentVariable(\"permissionNames\", jsonData.result.permissionNames);",
+							"//做判断，当环境变量中的permission Names值和变量的值相等时，显示正确获得，否则fail",
+							"if (postman.getEnvironmentVariable(\"permissionNames\") == array) {",
+							"    tests[\"职位权限获取正确\"] = true;",
+							"    console.log(jsonData.result.permissionNames)",
+							"    postman.clearEnvironmentVariable(\"permissionNames\");",
+							"} else {",
+							"    tests[\"职位权限获取不正确\"] = false;",
+							"}",
+							"//方法二",
+							"//postman.clearEnvironmentVariable(\"permissionNames\");",
+							"//if(jsonData.result.permissionNames == array){",
+							" //    tests[\"职位权限获取正确1\"] = true;",
+							"//} else {",
+							"  //  tests[\"职位权限获取不正确1\"] = false;",
+							"//}"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "c9133424-948d-4527-b45a-76b8570aa2d5",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "88936fc5-26ce-4ab8-ac46-b9befbe14e48",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6916340c-8191-4217-9374-02c4376d820f",
+			"name": "【血糖】柱形图数据30天‘",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPeriodBGIndictorOutput?culture=zh-Hans&{{患者列表-选择时间段date30天}}&{{患者列表-患者的ID}}",
+			"description": "总览的血糖柱形图数据获取",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段date30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cb8b6df7-2e3c-45db-ac8d-914c9a0b222f",
+						"exec": [
+							"",
+							"//11111111111111111111111111第一个断言",
+							"tests[\"状态码是200\"] = responseCode.code ===200",
+							"",
+							"",
+							"",
+							"",
+							"//2222222222222222222222222第二个断言，判断血糖返回的次数和实际记录的次数是否是一致的",
+							"var jsonData = JSON.parse(responseBody)",
+							"if(jsonData.result.measurementTimes ==( jsonData.result.beforeBloodGlucoseChangeValues.length+jsonData.result.afterBloodGlucoseChangeValues.length+jsonData.result.randomBloodGlucoseChangeValues.length)){",
+							"    tests[\"测试次数和血糖数据获取的时间次数---相同\"] = true",
+							"}else{",
+							"    tests[\"血糖测试次数和实际测试次数---不相同\"] = false",
+							"",
+							"}",
+							"",
+							"",
+							"",
+							"//333333333333333333333333333333第三个断言，判断所记录下的所有的血糖值的平均值是否记录正确",
+							"",
+							"//第一个求和：餐前血糖的血糖值之和",
+							"var jsonData = JSON.parse(responseBody)",
+							"var sum = 0",
+							"hh = jsonData.result.beforeBloodGlucoseChangeValues",
+							"for (i=0; i < hh.length;i++){",
+							"   sum += hh[i] ",
+							"    ",
+							"}",
+							"//第二个求和：餐后血糖的血糖值之和",
+							"var sum1 = 0",
+							"hhh = jsonData.result.afterBloodGlucoseChangeValues",
+							"for (j=0; j < hhh.length;j++){",
+							"   sum1 +=hhh[j] ",
+							"    ",
+							"}",
+							"",
+							"//第三个求和，求随机血糖的血糖之和",
+							"var sum2 = 0",
+							"hhhh = jsonData.result.randomBloodGlucoseChangeValues",
+							"for (k=0; k < hhhh.length;k++){",
+							"   sum2 +=hhhh[k] ",
+							"    ",
+							"}",
+							"//将测试的次数赋值给变量cishu",
+							"var cishu = jsonData.result.measurementTimes",
+							"//求平均。餐前餐后所有血糖值总和的平均值",
+							"var avg =(sum+sum1+sum2)/cishu",
+							"console.log(\"213\",typeof(avg))",
+							"console.log(\"avg\",avg)",
+							"",
+							"if (Math.abs(jsonData.result.averageBloodGlucoseValue - avg)<0.1){",
+							"    tests[\"血糖的平均值计算正确\"] = true;",
+							"}else if(jsonData.result[\"averageBeforeBloodGlucoseValue\"] === null){",
+							"    tests[\"患者尚未有血糖数据\"] = false;",
+							"}else{",
+							"    tests[\"血糖的平均值计算不正确\"] = false;",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"//4444444444444444444444第四个断言，标准差求值",
+							"//先将餐前和餐后的血糖拼接在一个数组中",
+							"zong = jsonData.result.beforeBloodGlucoseChangeValues.concat(jsonData.result.afterBloodGlucoseChangeValues).concat(jsonData.result.randomBloodGlucoseChangeValues)",
+							"console.log(\"zog\",zong)",
+							"var sum2 = 0",
+							"for(m=0; m<zong.length; m++){",
+							"    sum2 += Math.pow((zong[m]-avg),2)",
+							"}",
+							"console.log(sum2)",
+							"standard = Math.sqrt(sum2/cishu)",
+							"console.log(\"d\", standard)",
+							"",
+							"",
+							"//number = String(number).replace(/^(.*\\..{13}).*$/,\"$1\");",
+							"//number = Number(number); // number = 12.3321",
+							"",
+							"//console.log(number)",
+							"//将标准差的小数位保留至13位，大于5向上升10",
+							"standard1 = standard.toFixed(14) ",
+							"console.log(\"标准差\",standard1)",
+							"console.log(\"12123\",typeof(standard1))",
+							"",
+							"if (Math.abs(jsonData.result.bgVariance - standard1) < 0.1){",
+							"    tests[\"标准差求值正确\"] = true;",
+							"",
+							"}else if(jsonData.result[\"averageBeforeBloodGlucoseValue\"] === null){ //如果平均血糖都为空则标准差不能计算",
+							"    tests[\"未有数据\"] = false;",
+							"}else{",
+							"    tests[\"标准差求值不正确\"] = false;",
+							"}",
+							"",
+							"",
+							"",
+							"//55555555555555555555第五个断言,判断血糖值的最大最小值是否获取正确",
+							"",
+							"// 查找血糖值中最小的血糖值==============================================================================",
+							"/*",
+							"function mathMin(zong){",
+							"  var min = zong[0];",
+							"  for(var n = 1; n < zong.length; n++) {",
+							"    if(zong[n] < min) {",
+							"      min = zong[n];",
+							"    }",
+							"  }",
+							"  return min;",
+							"}",
+							"",
+							"minBG = (mathMin(zong)).toFixed(2)",
+							"console.log(\"最低血糖\",minBG);",
+							"",
+							"//血糖值中最大的血糖值===================================================================================",
+							"function mathMax(zong) {",
+							"  var max = zong[0];",
+							"  for(var r = 1;r<zong.length; r++) {",
+							"    if(zong[r] > max) {",
+							"      max = zong[r];",
+							"    }",
+							"  }",
+							"  return max;",
+							"}",
+							"",
+							"maxBG = (mathMax(zong)).toFixed(2)",
+							"console.log(\"最高血糖\",maxBG);",
+							"*/",
+							"//当餐前血糖为空的时候并且餐后血糖不为空的时候，对血糖的最小值和最大值进行求值",
+							"if (jsonData.result.beforeBloodGlucoseChangeValues.length === 0 && jsonData.result.afterBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1; r < zong.length; r++) {",
+							"       if(zong[r] > max){",
+							"            max = zong[r]",
+							"        }",
+							"    ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"",
+							"}",
+							"//当餐前血糖不为空餐后血糖为空的时候",
+							"else if(jsonData.result.afterBloodGlucoseChangeValues.length === 0 && jsonData.result.beforeBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1;r<zong.length; r++) {",
+							"        if(zong[r] > max){",
+							"            max = zong[r]",
+							"            ",
+							"        }",
+							"        ",
+							"        ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"    ",
+							"}",
+							"//判断出餐前和餐后血糖的值都不为空",
+							"else if(jsonData.result.afterBloodGlucoseChangeValues.length !== 0 && jsonData.result.beforeBloodGlucoseChangeValues.length !== 0){",
+							"    var min = zong[0];",
+							"    for(var n = 1; n < zong.length; n++) {",
+							"        if(zong[n] < min){",
+							"            min = zong[n];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG = min.toFixed(2)",
+							"    console.log(\"最低血糖\",minBG);",
+							"//血糖值中最大的血糖值===================================================================================",
+							"    var max = zong[0];",
+							"    for(var r = 1;r<zong.length; r++) {",
+							"        if(zong[r] > max){",
+							"            max = zong[r]",
+							"            ",
+							"        }",
+							"        ",
+							"        ",
+							"    }",
+							"    maxBG = max.toFixed(2)",
+							"    console.log(\"最高血糖\",maxBG);",
+							"    ",
+							"}else{",
+							"    minBG = 0,maxBG = 0",
+							"    console.log(\"餐前餐后的血糖值都为零\");",
+							"}",
+							"",
+							"//求随机血糖里面的血糖最小值==========================================================================================",
+							"//先是要进行判断，判断是否为空，为空就不求值随机血糖里面的值，不为空就求最高血糖和最低血糖。",
+							"",
+							"",
+							"if (jsonData.result.randomBloodGlucoseChangeValues.length !== 0){",
+							"    ab = jsonData.result.randomBloodGlucoseChangeValues",
+							"    console.log(\"随机血糖\",ab.length)",
+							"    var min1 = ab[0];",
+							"    for(var h = 1; h < ab.length; h++){",
+							"        if(ab[h] < min1){",
+							"             min1 = ab[h];",
+							"        }",
+							"        ",
+							"    }",
+							"    minBG1 = min1.toFixed(2);",
+							"    console.log(\"随机最低血糖1\",minBG1);",
+							"    ",
+							"    ",
+							"    ",
+							"    //求随机血糖里面的血糖最大值==========================================================================================",
+							"    ",
+							"    var max1 = ab[0];",
+							"    for(var w = 1;w<ab.length; w++){",
+							"        if(ab[w] > max1){",
+							"            max1 = ab[w];",
+							"        }",
+							"       ",
+							"    }",
+							"    maxBG1 = max1.toFixed(2);",
+							"    console.log(\"随机最高血糖1\",maxBG1);",
+							"    ",
+							"   ",
+							"    ",
+							"}else{",
+							"    minBG1 = 0, maxBG1 = 0",
+							"    console.log(\"随机血糖值是空的\",jsonData.result.randomBloodGlucoseChangeValues.length)",
+							"    }",
+							"    ",
+							"//求值到最大值最小值血糖之后进行判断，如果接口中的最大最小血糖值都求值正确则返回正确。",
+							"if ((minBG == jsonData.result.beforeLBG ||minBG == jsonData.result.afterLBG|| minBG == minBG1) && (maxBG == jsonData.result.beforeHBG || maxBG == jsonData.result.afterHBG || maxBG == maxBG1)){",
+							"    tests[\"该时间段内的最低、最高血糖值获取正确\"] = true;",
+							"    console.log(\"最低血糖值为\",minBG);",
+							"    console.log(\"最高血糖值为\",maxBG);",
+							"}else{",
+							"    tests[\"该时间段内最低、最高血糖值获取错误\"] = false;",
+							"    console.log(jsonData.result.randomBloodGlucoseChangeValues);",
+							"    }",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"//获取到患者餐前餐后血糖值设定范围",
+							"lpmbg = jsonData.result[\"lpmbg\"]//餐前最低",
+							"hpmbg = jsonData.result[\"hpmbg\"]//餐前最高",
+							"lpbg = jsonData.result[\"lpbg\"]//餐后最低",
+							"hpbg = jsonData.result[\"hpbg\"]//餐后最高",
+							"",
+							"SBG = lpmbg+\"~\"+hpmbg+\" \"+lpbg+\"~\"+hpbg",
+							"postman.setEnvironmentVariable(\"总览-血糖范围\",SBG)",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6d524da2-4bd2-4c37-8dc2-ac72d3dff6a6",
+			"name": "血糖异常列表数据_API测试 Copy",
+			"url": "{{url}}/api/services/app/FollowUp/GetPreviousDayFrontReachTheStandardList?culture=zh-Hans",
+			"description": null,
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b5c0e3c7-2795-498a-a530-e2b063b3a22c",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c203533c-affc-427f-92ca-7d093b0b227e",
+						"exec": [
+							"//第一个断言判断响应状态码是200",
+							" pm.test(\"响应状态码是 200\", function () {",
+							"    pm.response.code == 200 ;",
+							"    console.log(pm.response.code)",
+							"    ",
+							"});",
+							"",
+							"//第二个断言，判断响应的items的数组长度",
+							"var jsonData = JSON.parse(responseBody)",
+							"//判断响应里返回的的数组的条数与该患者列表出现高血糖低血糖异常血糖时的条数一致",
+							"if (jsonData.result.items.length == jsonData.result.items.count(jsonData.result.items.bgValue)){",
+							"    tests[\"异常血糖数据获取正确\"] = true;",
+							"    console.log(jsonData.result.items.length)//在控制台输出items数组的长度",
+							"}else{",
+							"    tests[\"异常血糖数据获取不正确\"] = false;",
+							"    console.log(jsonData.result.items.length)//在控制台输出items数组的长度",
+							"    console.log(jsonData.result.items.count(jsonData.result.items.bgValue))//获取到该显示在异常血糖列表中的数据",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"//第三个断言，判断该接口响应的数据是否和异常警报接口响应的数据一致。",
+							"//注意这个在进行求和的时候没有转换字符类型默认用的字符串类型显示的数据",
+							"aa = parseInt(postman.getEnvironmentVariable(\"hboold_warning\"))+parseInt(postman.getEnvironmentVariable(\"lboold_warning\"))",
+							"bb = jsonData.result.items.length",
+							"console.log(\"aa=\",aa)",
+							"console.log(\"bb=\",bb)",
+							"if (aa == bb){",
+							"    tests[\"异常血糖警报和异常血糖列表的数据条数一致\"] = true",
+							"    console.log(aa,bb)",
+							"}else{",
+							"    tests[\"异常警报血糖数和异常血糖列表的条数显示的不一致\"] = false",
+							"    console.log(aa,bb)",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "a7e91bf1-507b-4328-a34f-fb708aab4bf8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "74354023-95f0-4ca7-832b-7de531ebe7e6",
+			"name": "前一日血糖达标情况数值获取API Copy",
+			"url": "{{url}}/api/services/app/FollowUp/GetYesterdayIsQualifiedDetail?culture=zh_Hans",
+			"description": "获取到前一日患者血糖达标人数数值",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh_Hans"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": null,
+			"folder": "42d8cdce-c368-420d-a2bd-814bd3b7288f",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "98d4bf03-190a-4bfc-9ebc-b0068ae283a6",
+			"name": "日志表中的数据 ",
+			"url": "{{url}}/api/services/app/PatientLog/GetPatientLogReport?culture=zh-Hans&{{患者列表-患者的ID}}&{{患者列表-选择时间段time30天}}&sorting=0&MaxResultCount=20",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段time30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sorting",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "MaxResultCount",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c1557c91-f6a3-4527-8026-73d96b81f89b",
+						"exec": [
+							"//第一个断言：判断响应状态码是否为200",
+							"tests[\"响应的状态码是200\"] = responseCode.code === 200",
+							"",
+							"//=================================================================================================================",
+							"//第二个断言，循环遍历出数据，让数据之间进行比较",
+							"var jsonData = JSON.parse(responseBody)",
+							"//获取到数组的长度，也就是日志表种记录了几天",
+							"item_length = jsonData.result.items.length",
+							"console.log(\"有几天的数据\",item_length)",
+							"//设置for循环，将数组种的数据遍历出来，从而校验数据是否计算错误",
+							"for (i=0; i<item_length;i++){",
+							"    var sum = 0",
+							"    pg_length = jsonData.result.items[i][\"pgRecords\"].length//判断每天有多少个血糖记录值",
+							"    //console.log(pg_length)",
+							"    for(t=0; t< pg_length; t++){ //单独对每一天的血糖值进行计算长度",
+							"        sum += jsonData.result.items[i][\"pgRecords\"][t][\"bloodGlucoseValue\"] //将遍历得到的血糖值都加起来",
+							"    }",
+							"    avg = (sum/pg_length).toFixed(2)",
+							"    if(jsonData.result.items[i][\"averagePG\"] == avg){ //实际血糖值和求得的血糖值进行判断",
+							"        tests[\"平均值求值正确\"] =true",
+							"        console.log(\"实际血糖平均值\",jsonData.result.items[i][\"averagePG\"])",
+							"    }else{",
+							"        tests[\"实际平均值和求的值不相等，数据计算错误\"] = false",
+							"    }",
+							"    console.log(\"求得的血糖平均值\",avg)",
+							"    }",
+							"",
+							"//===========================================================================================================================",
+							"//第三个断言，判断胰岛素的注入量是否和求得值相等",
+							"for(h =0;h<item_length;h++){",
+							"    yidaosu=jsonData.result.items[h][\"basicInsulin\"]+jsonData.result.items[h][\"highDoseInsulin\"]",
+							"    if(jsonData.result.items[h][\"insulinInjection\"] == yidaosu){",
+							"        tests[\"胰岛素核对正确\"]=true",
+							"        console.log(\"求得的胰岛素值\",yidaosu)",
+							"    }else{",
+							"        tests[\"胰岛素核对错误\"]=false",
+							"        console.log(\"求得的胰岛素值\",yidaosu)",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "59ab596b-5f33-47e2-b83c-3a6dfdc5ef82",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "9ded55f4-d9c9-4dae-afbf-4814a410337b",
+			"name": "[患者总览-学习]",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPatientCourseHistory?culture=zh-Hans&{{患者列表-患者的ID}}",
+			"description": "这个学习接口还没做需要以后关注",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4be66d99-6515-49b9-90bc-5aae4e743773",
+						"exec": [
+							"//这个接口暂时不做测试"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a1c4946f-4d11-4aca-b474-349237d5cc32",
+			"name": "健康档案页面数据展示API",
+			"url": "{{url}}/api/services/app/Patient/GetPatientHealthArchiveByPatientId?culture=zh-Hans&{{患者列表-患者的ID}}",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "80642c38-04c9-4b82-9654-6c11528c198d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "af270a67-50fe-4713-923b-9a311b4e0b21",
+						"exec": [
+							"tests[\"响应状态码是200\"] = responseCode.code === 200",
+							"//===========================================================================================",
+							"//===========================================================================================",
+							"",
+							"var jsonData = JSON.parse(responseBody)",
+							"//=====================================================================================================================================",
+							"//======================================================================================================================================",
+							"//第二个断言,判断患者性别和患者的糖尿病选择之间的关系",
+							"",
+							"sex = jsonData.result[\"gender\"]",
+							"bgtype = jsonData.result[\"diabetesType\"]",
+							"",
+							"if (sex == \"男\" && bgtype == \"妊娠糖尿病\" ){",
+							"    tests[\"男性患者不能出现妊娠糖尿病\"] = false",
+							"    console.log(\"患者性别：\"+sex+\" \"+\"患者糖尿病类型：\"+bgtype)",
+							"}else{",
+							"    tests[\"患者病型并没有出现男性女性糖尿病乱选择的情况\"]=true",
+							"    console.log(\"患者性别：\"+sex+\" \"+\"患者糖尿病类型：\"+bgtype)",
+							"}",
+							"",
+							"",
+							"//========================================================================================================================================",
+							"//=======================================================================================================================================",
+							"//第三个断言，判断并发症上选择是，并发病情为必填的规则。",
+							"",
+							"bingfazheng = jsonData.result[\"isComplication\"]",
+							"//complication = jsonData.result[\"complication\"]",
+							"console.log(\"有没有选择并发症：\",bingfazheng)",
+							"//判断条件是：并发症选项选择了是，填写了并发症病情，这个只能判断并发症选择是，并发症病情为必填项。其他的只能通过定位元素来做判断",
+							"if (bingfazheng == \"true\" && complication !=\" \"){",
+							"    tests[\"并发症选择是之后病情没有进行填写\"] =true",
+							"   ",
+							"}else{",
+							"    console.log(\"暂时只这么做，其他的就直接在python中编写脚本\")",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"//======================================================================================================================================",
+							"//=======================================================================================================================================",
+							"//第四个断言，判断用药情况选择除未用药意外的选项，是否会关联用药情况和用药类型。",
+							"yongyao =jsonData.result[\"medication\"]",
+							"yongyaoleixing = jsonData.result[\"medicationType\"]",
+							"if ((yongyao == \"口服降糖药\"||yongyao == \"注射胰岛素\"||yongyao == \"口服+注射\")&& yongyaoleixing !=\"\"){",
+							"    tests[\"患者选择用药情况和用药类型关联正确\"]=true",
+							"}else{",
+							"    console.log(\"2\")",
+							"}",
+							"",
+							"",
+							"",
+							"//======================================================================================================================================",
+							"//=======================================================================================================================================",
+							"//第五个大断言，判断筛查时间和现在时间的大小关系，是否会大于当前的时间，大于当前的时间则判断为错误",
+							"//建立一个函数，判断两个时间之间的大小关系，大等于为true，小为false",
+							"function compareDate(DateOne, DateTwo) {",
+							"  var OneMonth = DateOne.substring(5, DateOne.lastIndexOf(\"-\"));",
+							"  var OneDay = DateOne.substring(DateOne.length, DateOne.lastIndexOf(\"-\") + 1); //“-”符号的下一位字符，倒序",
+							"  var OneYear = DateOne.substring(0, DateOne.indexOf(\"-\"));",
+							"  var TwoMonth = DateTwo.substring(5, DateTwo.lastIndexOf(\"-\"));",
+							"  var TwoDay = DateTwo.substring(DateTwo.length, DateTwo.lastIndexOf(\"-\") + 1);",
+							"  var TwoYear = DateTwo.substring(0, DateTwo.indexOf(\"-\"));",
+							"  if (Date.parse(OneMonth + \"/\" + OneDay + \"/\" + OneYear) >= Date.parse(TwoMonth + \"/\" + TwoDay + \"/\" + TwoYear)) {",
+							"    return true;",
+							"  } else {",
+							"    return false;",
+							"  }",
+							"}",
+							"",
+							"",
+							"//判断内容：判断初诊指标中选择“过去一年是否进行了并发症筛查”选择是，则筛查时间是必填一项",
+							"//先获取到当前的时间",
+							"var myDate = new Date();",
+							"var nowY = myDate.getFullYear();",
+							"var nowM = myDate.getMonth()+1;",
+							"var nowD = myDate.getDate();",
+							"var enddate = nowY+\"-\"+(nowM<10 ? \"0\" + nowM : nowM)+\"-\"+(nowD<10 ? \"0\"+ nowD : nowD);//当前日期",
+							"console.log(\"今天的时间日期为：\",enddate)",
+							"",
+							"",
+							"//获取到hbA1c的值，hbA1c是一个必选项",
+							"//获取到当前患者填写的筛查时间",
+							"eyecheck = jsonData.result[\"retinalTime\"]",
+							"footcheck = jsonData.result[\"pelmaTime\"]",
+							"shencheck = jsonData.result[\"isNephropathy\"]",
+							"hbA1c = jsonData.result[\"hbA1c\"]",
+							"//做判断，筛查时间是否为空，执行操作如下，分别是眼底、足底、肾的筛查时间的判断",
+							"if(eyecheck !== null && (hbA1c !==null||hbA1c !==\" \")){",
+							"    eyecheck1 = eyecheck.slice(0,10)//将得到的出生日期进行处理，获取前面的出生年月日",
+							"    //eyecheck2=eyecheck1.replace(/-/g,\"\")//将进一步处理的年月日进行在次处理，将“-”符号去掉。重点是必须要加上g这个参数，否则不能一次性的全部替换",
+							"    console.log(eyecheck1)",
+							"    if(compareDate(enddate,eyecheck1) == true){",
+							"        tests[\"眼底筛查时间没有大于当前日期，符合系统要求\"] = true",
+							"        console.log(\"眼底筛查时间没有大于当前日期，符合系统要求\")",
+							"    }else{",
+							"        tests[\"眼底筛查时间：\"+eyecheck1+\" \"+\"大于当前日期不符合系统要求\"]=false",
+							"        console.log(\"眼底筛查时间大于当前日期，不符合系统要求\")",
+							"    }",
+							"}else{",
+							"    console.log(\"未进行过眼底筛查\")",
+							"}",
+							"",
+							"if(footcheck !== null && (hbA1c !==null||hbA1c !==\" \")){",
+							"    footcheck1 = footcheck.slice(0,10)//将得到的出生日期进行处理，获取前面的出生年月日",
+							"    if(compareDate(enddate,footcheck1) == true){",
+							"        tests[\"足底筛查时间没有大于当前日期，符合系统要求\"] = true",
+							"        console.log(\"足底筛查时间没有大于当前日期，符合系统要求\")",
+							"    }else{",
+							"        tests[\"足底筛查时间：\"+footcheck1+\" \"+\"大于当前日期，不符合系统要求\"] = false",
+							"        console.log(\"足底筛查时间大于当前日期，不符合系统要求\")",
+							"    }",
+							"}else{",
+							"    console.log(\"未进行过足底筛查\")",
+							"}",
+							"",
+							"if(shencheck !== null  && (hbA1c !==null||hbA1c !==\" \")){",
+							"    shencheck1 = shencheck.slice(0,10)//将得到的出生日期进行处理，获取前面的出生年月日",
+							"    if(compareDate(enddate,shencheck1) == true){",
+							"        tests[\"肾筛查时间没有大于当前日期，符合系统要求\"] = true",
+							"        console.log(\"肾筛查时间没有大于当前日期，符合系统要求\")",
+							"    }else{",
+							"        tests[\"肾筛查时间：\"+shencheck1+\" \"+\"大于当前日期，不符合系统要求\"] = false",
+							"        console.log(\"肾筛查时间大于当前日期，不符合系统要求\")",
+							"    }",
+							"}else{",
+							"    console.log(\"未进行过肾筛查\")",
+							"}",
+							"",
+							"",
+							"//获取到当前患者的身高、体重、年龄加入到环境变量中",
+							"shengao = jsonData.result[\"height\"]",
+							"tizhong = jsonData.result[\"weight\"]",
+							"nianling =(jsonData.result[\"birthday\"]).slice(0,10)",
+							"console.log(nianling)",
+							"",
+							"//nianling1 = (Math[nianling > 0 ? \"floor\" : \"ceil\"](nianling)); ",
+							"//console.log(nianling1)",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"function DateDiff(startDate, endDate){",
+							"    var aDate, oDate1, oDate2, iDays ;",
+							"    aDate = startDate.split('-');",
+							"    oDate1 = new Date(aDate[1]+'-'+aDate[2]+'-'+aDate[0]) ;",
+							"    aDate = endDate.split('-');",
+							"    oDate2 = new Date(aDate[1]+'-'+ aDate[2] +'-'+aDate[0]);",
+							"    iDays = parseInt((parseInt(Math.abs(oDate1 -oDate2)/1000/60/60/24))/365); //把相差的毫秒数转换为天数,再除以365天，求整数",
+							"    return iDays ;",
+							"}",
+							"console.log(\"666\",DateDiff(enddate,nianling))",
+							"var agedone = DateDiff(enddate,nianling)",
+							"",
+							"",
+							"postman.setEnvironmentVariable(\"健康档案-患者的身高、体重、年龄：\" ,shengao+\",\"+tizhong+\",\"+agedone);",
+							"",
+							"",
+							"",
+							"//第六个断言，判断身份证上出生日期是否计算出现错误",
+							"age = jsonData.result[\"birthday\"]",
+							"ID= jsonData.result[\"idNumber\"]",
+							"age1 = age.slice(0,10)//将得到的出生日期进行处理，获取前面的出生年月日",
+							"age2=age1.replace(/-/g,\"\")//将进一步处理的年月日进行在次处理，将“-”符号去掉。重点是必须要加上g这个参数，否则不能一次性的全部替换",
+							"//console.log(age2)",
+							"ID1 = ID.slice(6,14)",
+							"//console.log(ID1)",
+							"",
+							"//第一种情况是，身份证上的出生日期和实际填写的出生日期一致，则计算年龄",
+							"nianji = postman.getEnvironmentVariable(\"患者列表-患者信息\").split(\",\")",
+							"if (ID1 == age2){",
+							"    console.log(nianji[1])",
+							"    if(agedone ==nianji[1]){",
+							"        tests[\"患者年龄计算正确\"]=true",
+							"    }else{",
+							"        tests[\"年龄计算错误,实际年龄该为：\"+agedone+\"页面上显示的年龄为：\"+nianji[1]]",
+							"    }",
+							"}",
+							" //第二种情况，若身份证上的出生日期和实际的出生日期不一致，则以实际的出生日期到今天日期的差值为患者年龄",
+							"else if(ID1 !== age2){",
+							"    var nianji2 = DateDiff(enddate , age1)",
+							"    console.log(\"324\",nianji2)",
+							"    if(nianji2 == nianji[1]){",
+							"        tests[\"患者年龄计算正确\"]=true",
+							"    }else{",
+							"        tests[\"患者年纪计算错误\"]=false",
+							"    }",
+							"}",
+							"    ",
+							"",
+							"",
+							"",
+							"",
+							"//第七个断言，判断血糖范围的更改后数据的一致性",
+							"//获取到患者餐前餐后血糖值设定范围",
+							"lpmbg = jsonData.result[\"lpmbg\"]//餐前最低",
+							"hpmbg = jsonData.result[\"hpmbg\"]//餐前最高",
+							"lpbg = jsonData.result[\"lpbg\"]//餐后最低",
+							"hpbg = jsonData.result[\"hpbg\"]//餐后最高",
+							"DBG = lpmbg+\"~\"+hpmbg+\" \"+lpbg+\"~\"+hpbg",
+							"",
+							"if(postman.getEnvironmentVariable(\"总览-血糖范围\") == DBG){",
+							"    tests[\"血糖范围获取正确\"] = true",
+							"}else{",
+							"    tests[\"血糖范围获取不正确,应为：\"+DBG+\" \"+\"实际为：\"+\" \"+postman.getEnvironmentVariable(\"总览-血糖范围\")] = false",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "2196a99b-0c66-4243-a862-8012b1f093b3",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a464a591-b6c7-411f-9e17-8ce68a2b59a0",
+			"name": "管理报表的数据校验",
+			"url": "{{url}}/api/services/app/PatientReport/GetBGAReportAsync?culture=zh-Hans&{{患者列表-患者的ID}}&{{管理报表-7天}}&isSpecificDay=false",
+			"description": null,
+			"data": [],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{管理报表-7天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "isSpecificDay",
+					"value": "false",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e7afa364-02a6-4550-b016-88a6d91975b1",
+						"exec": [
+							"//第一个断言。判断响应状态码是否为200",
+							"tests[\"响应状态码是200\"] = responseCode.code === 200",
+							"",
+							"",
+							"//第二个断言。判断flag的状态值在设定的范围内是否判断正确。",
+							"var jsonData = JSON.parse(responseBody)",
+							"item_length = jsonData.result.items.length",
+							"console.log(item_length)",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "074e123c-417a-4bba-9b0c-6d5080344387",
+						"exec": [
+							"",
+							"//设置时间段为当前时间往前退7天,设置为全局变量",
+							"var myDate = new Date();",
+							"var nowY = myDate.getFullYear();",
+							"var nowM = myDate.getMonth()+1;",
+							"var nowD = myDate.getDate();",
+							"var enddate = nowY+\"/\"+(nowM<10 ? \"0\" + nowM : nowM)+\"/\"+(nowD<10 ? \"0\"+ nowD : nowD);//当前日期",
+							"console.log(\"今天的时间日期为：\",enddate)",
+							"",
+							"",
+							"",
+							"var myDate = new Date();",
+							"var lw = new Date(myDate - 1000 * 60 * 60 * 24 * 7 );//最后一个数字7可改，7天的意思",
+							"var lastY = lw.getFullYear();",
+							"var lastM = lw.getMonth()+1;",
+							"var lastD = lw.getDate();",
+							"var startdate=lastY+\"/\"+(lastM<10 ? \"0\" + lastM : lastM)+\"/\"+(lastD<10 ? \"0\"+ lastD : lastD);//七天之前日期",
+							"console.log(\"上周的现在时间\",startdate);",
+							"",
+							"",
+							"var startTime=startdate ;",
+							"var endTime=enddate ;",
+							"time_set7 = \"startDate\"+\"=\"+startdate+\"&\"+\"endDate\"+\"=\"+enddate",
+							"console.log(\"一周的时间段\",time_set7)",
+							"",
+							"postman.setGlobalVariable(\"管理报表-7天\",time_set7)",
+							"",
+							"",
+							"//请求登陆接口，将接口返回的token值存储在环境变量中，下一个接口使用",
+							"const request1 = {",
+							"  url: \"https://www.hn-ihealth.com/api/TokenAuth/Authenticate?culture=zh-Hans\",",
+							"  method: 'POST',",
+							"  header: {\"Content-Type\":\"application/json\"},",
+							"  body: {",
+							"    mode: 'raw',",
+							"   // 请求体",
+							"    raw: JSON.stringify({",
+							"\"userNameOrEmailAddress\": \"17774994965\",",
+							"\"password\": \"123456\",",
+							"\"origin\": \"2\"",
+							"\t",
+							"})",
+							"  }",
+							"};",
+							" ",
+							"pm.sendRequest(request1, function (err, response) {",
+							"    aa = response.json().result[\"accessToken\"]",
+							"    console.log(aa);",
+							"    postman.setEnvironmentVariable(\"uu\",aa)",
+							"    //console.log(response.json())",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "d5687b3b-a622-4ded-b64d-339dee9e684d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "aded2f33-ac54-4f36-a67d-1ff663cab648",
+			"name": "【患者管理-胰岛素】",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPeriodMedicineOutput?culture=zh-Hans&{{患者列表-选择时间段time30天}}&{{患者列表-患者的ID}}",
+			"description": "获取到胰岛素的用量情况",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"description": "汉化",
+					"type": "text"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段time30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9794cccc-3045-4d6b-9f73-acd6b20a60d6",
+						"exec": [
+							"//这个接口似乎被暂时放弃了，没得数据的传递，暂时不做测试，先放弃"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "culture: zh-Hans\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b167c29c-7337-4d57-85ce-7a233b40e4d3",
+			"name": "【时段血糖】-【每天血糖】柱形图数据",
+			"url": "{{url}}/api/services/app/PatientDashboard/GetPeriodOfTimeBGRecords?culture=zh-Hans&{{患者列表-选择时间段date30天}}&{{患者列表-患者的ID}}",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-选择时间段date30天}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "82dfd396-36ae-41e9-96f5-e4ef148fa7be",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody)",
+							"tests[\"响应状态码为200\"] = responseCode.code ===200",
+							"console.log(responseCode.code)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "677364b0-d9b3-4751-82dd-0e1ba18323ac",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b908e175-4d61-493a-9417-861528464eb2",
+			"name": "建档管理API",
+			"url": "{{url}}/api/services/app/FollowUp/GetArchivingManagement?culture=zh-Hans&complete = true",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans"
+				},
+				{
+					"key": "complete ",
+					"value": " true"
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b865bf77-074a-42f8-b49e-ff01687be239",
+						"exec": [
+							"//该接口暂时没调用，先不用管",
+							"//第一个断言，判断响应中管理的总人数是否显示正确",
+							"var jsonData = JSON.parse(responseBody)",
+							"if (postman.getEnvironmentVariable(\"目前该账号管理的总人数\") == jsonData.result[\"totalNumber\"] && (jsonData.result[\"complete\"]+jsonData.result[\"noComplete\"]) == postman.getEnvironmentVariable(\"目前该账号管理的总人数\")){",
+							"    tests[\"管理总人数显示正确\"] = true",
+							"}else{",
+							"    tests[\"管理总人数显示不正确\"] = false",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "abf45e80-45c3-4cc2-9e76-26cf6d314e46",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e47b0a0f-334f-4a67-b05a-5b9d0bc87b36",
+			"name": "体型与饮食评估",
+			"url": "{{url}}/api/services/app/Patient/GetPatientSizeAndDietaryAssessment?culture=zh-Hans&{{患者列表-患者的ID}}",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "{{患者列表-患者的ID}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4e5c2510-9eac-4493-9823-1c003441176c",
+						"exec": [
+							"tests[\"响应状态码是200\"] = responseCode.code === 200",
+							"",
+							"//第一个断言，判断BMR值是否计算出现错误，响应中无男女参数，分别计算出男女的BMR值，然后自行匹配。",
+							"var jsonData = JSON.parse(responseBody)",
+							"shuzhi = postman.getEnvironmentVariable(\"健康档案-患者的身高、体重、年龄：\")",
+							"console.log(shuzhi)",
+							"shuzhi1 = shuzhi.split(\",\")",
+							"console.log(shuzhi1)",
+							"",
+							"",
+							"//BMR(男)=(13.7×体重(kg))+(5.0×身高(cm))-(6.8×年龄)+66 ",
+							"//BMR(女)=(9.6×体重(kg))+(1.8×身高(cm))-(4.7×年龄)+655 ",
+							"",
+							"BB=(13.75*shuzhi1[1])+(5.0*shuzhi1[0])-(6.8*shuzhi1[2])+66",
+							"GB=(9.6*shuzhi[1])+(1.8*shuzhi1[0])-(4.7*shuzhi1[2])+655",
+							"",
+							"BMR = jsonData.result[\"bmr\"]",
+							"",
+							"if((BMR == BB)||(BMR == GB)){",
+							"    console.log(BB ||GB)",
+							"    tests[\"BMR值计算正确\"]=true",
+							"}else{",
+							"    tests[\"BMR值计算错误\"+\"BMR值为：\"+BMR+\" 实际值为：\"+(BB ||GB)]=false",
+							"    console.log(BB ||GB)",
+							"}",
+							"",
+							"",
+							"//判断体型是否计算正确",
+							"//标准体重 = 身高（cm）-105",
+							"biaozhuntizhong = shuzhi1[0] - 105",
+							"console.log(biaozhuntizhong)",
+							"//消瘦：实际体重/标准体重＜0.8",
+							"//正常：实际体重/标准体重=0.8～1.2",
+							"//肥胖：实际体重/标准体重＞1.2",
+							"zhibiao = shuzhi1[1] /biaozhuntizhong",
+							"console.log(zhibiao)",
+							"//体型是正常",
+							"var kk",
+							"if((zhibiao >= 0.8 && zhibiao<1.2) &&(jsonData.result[\"bmi\"]==\"正常\")){",
+							"    tests[\"bmi判断正确\"]=true",
+							"    kk = \"正常\"",
+							"}",
+							"//体型是肥胖",
+							"else if(zhibiao >1.2 && jsonData.result[\"bmi\"]==\"肥胖\"){",
+							"    tests[\"bmi判断正确\"]=true",
+							"    kk=\"肥胖\"",
+							"}",
+							"//体型是消瘦",
+							"else if(zhibiao <0.8 && jsonData.result[\"bmi\"]==\"消瘦\"){",
+							"    tests[\"bmi判断正确\"]=true",
+							"    kk=\"消瘦\"",
+							"}",
+							"else{",
+							"    kk =\"无数据无法进行判断\"",
+							"    tests[\"bmi判断错误,应为：\"+kk+\" \"+\"实际为：\"+jsonData.result[\"bmi\"]]=false",
+							"    console.log(\"1\",\"bmi判断错误,应为：\"+kk+\" \"+\"实际为：\"+jsonData.result[\"bmi\"])",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"//第三个断言，判断理想体重范围:标准体重*90%~标准体重*110%",
+							"a = (biaozhuntizhong*0.9).toFixed(0)",
+							"b = (biaozhuntizhong*1.1).toFixed(0)",
+							"if ((a+\"~\"+b) == jsonData.result[\"idealWeight\"]){",
+							"    tests[\"理想体重范围计算正确\"]=true",
+							"    console.log(a+\"~\"+b)",
+							"}else if(kk ==\"无数据无法进行判断\"){",
+							"    tests[\"数据不足无法判断\"]=false",
+							"}",
+							"else{",
+							"    tests[\"理想体重范围计算出错\"]=false",
+							"    console.log(a+\"~\"+b)",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "2196a99b-0c66-4243-a862-8012b1f093b3",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "f7877259-36cf-4b44-a216-8649b8738628",
+			"name": "获取患者信息列表api",
+			"url": "{{url}}/api/services/app/Patient/GetPatientList?culture=zh-Hans",
+			"description": "获取分配给该医生的所有患者信息，以列表的形式展示",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{doctor_login_line}}",
+					"type": "text"
+				},
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"description": "汉化",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "55520f21-6cea-4d08-8a9c-2a2bb201647f",
+						"exec": [
+							"//第一个断言，判断响应状态码是否是200",
+							"var jsonData = JSON.parse(responseBody)",
+							"if (responseCode.code == 200){",
+							"    tests[\"响应状态码是200\"] = true;",
+							"}else{",
+							"    tests[\"响应状态码不是200\"] = false;",
+							"}",
+							"",
+							"",
+							"//第二个断言测试",
+							"//获取到第一个患者今天往前面退30天的时间段和测试血糖的总次数以及测试血糖的值的平均数",
+							"//然后将其保存在环境变量中，用于下个接口的数据传递。",
+							"//获取到30天内所有的测试次数包括随机次数",
+							"total_measuretime = jsonData.result.items[0][\"totalNumber\"] ",
+							"console.log(\"30天内测试总次数\", total_measuretime);",
+							"",
+							"// 30天内所有血糖记录的平均血糖值",
+							"avgBG1 = jsonData.result.items[0][\"avgBG\"]",
+							"console.log(typeof(avgBG1)) //判断数据类型",
+							"avg1 = (avgBG1).toFixed(1)",
+							"console.log(\"30天内的所有血糖的平均血糖值\",avg1)",
+							"",
+							"",
+							"postman.setEnvironmentVariable(\"患者列表-30天内的血糖测试总数\",total_measuretime);",
+							"postman.setEnvironmentVariable(\"患者列表-30天的血糖平均值\",avg1);",
+							"",
+							"//获取到当前时间往前推30天的时间",
+							"//方法一",
+							"/*",
+							"var today = new Date();",
+							"//today.setTime(today.getTime());",
+							"var today1 = today.getFullYear()+\"-\" + (today.getMonth()+1) + \"-\" + today.getDate();",
+							"console.log(\"今天的时间日期为：\",today1)",
+							"*/",
+							"",
+							" //获取当前日期",
+							" //方法二",
+							"var myDate = new Date();",
+							"var nowY = myDate.getFullYear();",
+							"var nowM = myDate.getMonth()+1;",
+							"var nowD = myDate.getDate();",
+							"var enddate = nowY+\"/\"+(nowM<10 ? \"0\" + nowM : nowM)+\"/\"+(nowD<10 ? \"0\"+ nowD : nowD);//当前日期",
+							"console.log(\"今天的时间日期为：\",enddate)",
+							"",
+							"",
+							"",
+							"var myDate = new Date();",
+							"var lw = new Date(myDate - 1000 * 60 * 60 * 24 * 30 );//最后一个数字30可改，30天的意思",
+							"var lastY = lw.getFullYear();",
+							"var lastM = lw.getMonth()+1;",
+							"var lastD = lw.getDate();",
+							"var startdate=lastY+\"/\"+(lastM<10 ? \"0\" + lastM : lastM)+\"/\"+(lastD<10 ? \"0\"+ lastD : lastD);//三十天之前日期",
+							"console.log(\"上个月的现在时间\",startdate);",
+							"",
+							"",
+							"",
+							"var startTime=startdate ;",
+							"var endTime=enddate ;",
+							"time_choice = \"startTime\"+\"=\"+startdate+\"&\"+\"endTime\"+\"=\"+enddate",
+							"time_set= \"startDate\"+\"=\"+startdate+\"&\"+\"endDate\"+\"=\"+enddate",
+							"console.log(time_choice)",
+							"postman.setEnvironmentVariable(\"患者列表-选择时间段time30天\",time_choice);",
+							"postman.setEnvironmentVariable(\"患者列表-选择时间段date30天\",time_set);",
+							"",
+							"ID = jsonData.result.items[1][\"patientId\"]",
+							"Name =  jsonData.result.items[1][\"patientUserName\"]",
+							"",
+							"postman.setEnvironmentVariable(\"患者列表-患者的ID\",\"patientId\"+\"=\"+ID)",
+							"",
+							"",
+							"//将患者列表的所有患者姓名都获取到，然后添加到环境变量值中",
+							"",
+							"le = jsonData.result[\"items\"].length",
+							"console.log(le)",
+							"var list1 = []",
+							"for(n=0;n<le;n++){",
+							"    nn = jsonData.result[\"items\"][n][\"patientUserName\"]",
+							"    console.log(nn)",
+							"    list1.push(nn)",
+							"}",
+							"postman.setEnvironmentVariable(\"患者列表-患者姓名\",list1)",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "17271ed6-8ef1-451d-8691-fafb6058231c",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "2f98c258-1cf5-4da7-ae5c-218026bd164c",
+			"rawModeData": "\n{\n\n\"userNameOrPhoneNumber\":\"\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{doctor_login_line}}\nculture: zh-Hans\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ffed61c0-844d-4df6-a69f-1e59112ba994",
+			"name": "患者列表患者查询",
+			"url": "{{url}}/api/services/app/Patient/GetPatientList?culture=zh-Hans",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{doctor_login_line}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f2dcae2c-849a-4c4a-ba67-9fe694793d87",
+						"exec": [
+							"//获取到患者列表数据API添加的环境变量患者姓名，将患者姓名进行数组转换，然后随机选择一个元素",
+							"bb = postman.getEnvironmentVariable(\"患者列表-患者姓名\")",
+							"bb1 = bb.split(\",\")",
+							"suiji = bb1[Math.floor(Math.random()*bb1.length)]",
+							"postman.setEnvironmentVariable(\"随机患者姓名\",suiji)"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "7e59dad9-67d9-4042-ae4b-8e6008f90118",
+						"exec": [
+							"tests[\"患者查询不为空\"] = responseBody !== null"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "2f98c258-1cf5-4da7-ae5c-218026bd164c",
+			"rawModeData": "{\n\t\"userNameOrPhoneNumber\":\"{{随机患者姓名}}\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

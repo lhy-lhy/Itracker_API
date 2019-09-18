@@ -1,0 +1,138 @@
+{
+	"id": "cbd792f0-7f1c-4b07-b20a-a58c2cffdfaa",
+	"name": "hospital Admin线上itracker",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"b89101bc-7e64-4341-b9f8-28904f95cfbd",
+		"17544a03-84e3-4275-9e53-8dd7841856dc"
+	],
+	"folders": [
+		{
+			"id": "17544a03-84e3-4275-9e53-8dd7841856dc",
+			"name": "患者管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "cbd792f0-7f1c-4b07-b20a-a58c2cffdfaa",
+			"folder": null,
+			"order": [
+				"7f129c18-ad12-49dc-a148-dc1882357615"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "b89101bc-7e64-4341-b9f8-28904f95cfbd",
+			"name": "登陆",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "cbd792f0-7f1c-4b07-b20a-a58c2cffdfaa",
+			"folder": null,
+			"order": [
+				"adc36607-84a3-4abc-bc02-37000b61c0be"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "7f129c18-ad12-49dc-a148-dc1882357615",
+			"name": "患者列表数据获取",
+			"url": "{{url}}/api/services/app/Patient/GetPatientList?culture=zh-Hans",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "culture",
+					"value": "zh-Hans",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "333a980a-0245-4ff4-bb52-0f4c57323b8c",
+						"exec": [
+							"tests[\"响应状态码是200\"] = responseCode.code ===200"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "17544a03-84e3-4275-9e53-8dd7841856dc",
+			"rawModeData": "{\n\t\"userNameOrEmailAddress\":\"\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "adc36607-84a3-4abc-bc02-37000b61c0be",
+			"name": "登陆",
+			"url": "{{url}}//api/TokenAuth/Authenticate",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "80432c4d-c5f8-42e6-874f-0a5f96cdfb80",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody)",
+							"tests[\"200\"]=responseCode.code ===200",
+							"",
+							"//将获取得到的token值添加到环境变量中",
+							"token = jsonData.result[\"accessToken\"]",
+							"postman.setEnvironmentVariable(\"token\",token)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "b89101bc-7e64-4341-b9f8-28904f95cfbd",
+			"rawModeData": "{\n\t\"userNameOrEmailAddress\":\"18225844561\",\n\t\"password\":\"123456\",\n\t\"orgin\":\"2\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

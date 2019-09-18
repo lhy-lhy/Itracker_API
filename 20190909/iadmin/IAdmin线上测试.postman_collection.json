@@ -1,0 +1,263 @@
+{
+	"id": "75177f7a-0ab1-4674-b50a-af69ee87ce75",
+	"name": "IAdmin线上测试",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"6878d6e0-8203-45af-8b6a-1726857f4516",
+		"47da2f6c-599e-426a-9503-1997430c979e"
+	],
+	"folders": [
+		{
+			"id": "47da2f6c-599e-426a-9503-1997430c979e",
+			"name": "患者管理",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "75177f7a-0ab1-4674-b50a-af69ee87ce75",
+			"folder": null,
+			"order": [
+				"789c496e-26e7-4add-adf9-3e3501792d2d",
+				"bb028da5-8aab-42b8-ae37-0e6e28e18f00"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "6878d6e0-8203-45af-8b6a-1726857f4516",
+			"name": "登陆",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "75177f7a-0ab1-4674-b50a-af69ee87ce75",
+			"folder": null,
+			"order": [
+				"1d3b079b-684d-49b3-832d-e274f6da50e2"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "1d3b079b-684d-49b3-832d-e274f6da50e2",
+			"name": "登陆",
+			"url": "{{url}}//api/TokenAuth/Authenticate",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "52dc6e76-8855-4cb5-8811-1225e6a798d6",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody)",
+							"tests[\"200\"]=responseCode.code ===200",
+							"",
+							"//将获取得到的token值添加到环境变量中",
+							"token = jsonData.result[\"accessToken\"]",
+							"postman.setEnvironmentVariable(\"token\",token)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "6878d6e0-8203-45af-8b6a-1726857f4516",
+			"rawModeData": "{\r\n\"accessOrigin\": 1,\r\n\"password\": \"123qwe\",\r\n\"roleName\": \"Admin\",\r\n\"userNameOrEmailAddress\": \"admin1\"\r\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "789c496e-26e7-4add-adf9-3e3501792d2d",
+			"name": "患者列表",
+			"url": "https://www.hn-ihealth.com//api/services/app/Patient/GetSimplePatientList?{{患者列表页码数据显示}}&maxResultCount=10&userNameOrPhoneNumber=",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "{{患者列表页码数据显示}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "maxResultCount",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userNameOrPhoneNumber",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a511e257-0600-4745-aa24-4f864c2dfd0a",
+						"exec": [
+							"//实现方法一：循环赋值,实现每间隔10个数值显示数值一次",
+							"//只显示前面20页的数据",
+							"var arr = []",
+							"for (i=1;i<12;i++){",
+							"    h = 10+(i-1)*10",
+							"    arr.push(h)",
+							"    ",
+							"}",
+							"console.log(arr);",
+							"sc = arr[Math.floor(Math.random()*arr.length)]",
+							"sc1 = \"skipCount=\"+sc",
+							"//当sc=10、20就表示已经跳过了10、20条数据",
+							"postman.setEnvironmentVariable(\"患者列表页码数据显示\",sc1)",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d3feda56-0612-429a-b3d6-1e1abbb095a6",
+						"exec": [
+							"tests[\"200\"] = responseCode.code === 200",
+							"//将所在页码的患者姓名获取到然后添加到环境光变量中",
+							"var jsonData =JSON.parse(responseBody)",
+							"var a1 = []",
+							"for(j=0;j<10;j++){",
+							"    lie = jsonData.result[\"items\"][j][\"userName\"]",
+							"    a1.push(lie)",
+							"}",
+							"postman.setEnvironmentVariable(\"患者列表不同的页码的患者姓名\",a1)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "47da2f6c-599e-426a-9503-1997430c979e",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "bb028da5-8aab-42b8-ae37-0e6e28e18f00",
+			"name": "患者列表 查询患者",
+			"url": "{{url}}//api/services/app/Patient/GetSimplePatientList?{{患者列表页码数据显示}}&maxResultCount=10&&userNameOrPhoneNumber={{患者列表不同页码的随机患者姓名}}",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "charset",
+					"value": "utf-8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "{{患者列表页码数据显示}}",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "maxResultCount",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userNameOrPhoneNumber",
+					"value": "{{患者列表不同页码的随机患者姓名}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{token}}"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a511e257-0600-4745-aa24-4f864c2dfd0a",
+						"exec": [
+							"mm = postman.getEnvironmentVariable(\"患者列表不同的页码的患者姓名\")",
+							"mm1=mm.split(\",\")",
+							"kg = mm1[Math.floor(Math.random()*mm1.length)]",
+							"postman.setEnvironmentVariable(\"患者列表不同页码的随机患者姓名\",kg)",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d3feda56-0612-429a-b3d6-1e1abbb095a6",
+						"exec": [
+							"tests[\"200\"] = responseCode.code === 200",
+							"//",
+							"tests[\"查询结果不为空\"] = responseBody  !==null",
+							"console.log(responseBody)",
+							"",
+							"// 不能返回数据"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"folder": "47da2f6c-599e-426a-9503-1997430c979e",
+			"headers": "charset: utf-8\n",
+			"pathVariables": {}
+		}
+	]
+}

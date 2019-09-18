@@ -1,0 +1,14 @@
+{
+	"id": "6a359bae-bf2d-4bc9-859b-451357318277",
+	"values": [
+		{
+			"key": "管理报表-7天",
+			"value": "startDate=2019/08/28&endDate=2019/09/04",
+			"enabled": true
+		}
+	],
+	"name": "sugarQ Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2019-09-09T02:36:04.859Z",
+	"_postman_exported_using": "Postman/7.6.0"
+}

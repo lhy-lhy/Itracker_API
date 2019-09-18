@@ -1,0 +1,1 @@
+newman run D:\API脚本导出目录\20190909\医生\医生权限线上itracker测试.postman_collection.json -e D:\API脚本导出目录\20190909\医生\doctor_login_line.postman_environment.json -g D:\API脚本导出目录\20190909\sugarQ.postman_globals.json
